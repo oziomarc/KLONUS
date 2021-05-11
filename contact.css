@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #9DB9FA;
+}
+
+a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+.title {
+  /* width: 100%;
+  height: 660px; */
+  font-family: 'Lexend Mega', sans-serif;
+  color: #fff;
+  animation-name: title;
+  animation-duration: 2s;
+  font-size: 4.5vmin;
+}
+
+@keyframes title {
+  from {color: #2D54AD;}
+  to {color: #9DB9FA;}
+}
+
+
+.navigation {
+  line-height: 1.5;
+  font-family: 'Zen Dots', cursive;
+  font-size: 80%;
+}
